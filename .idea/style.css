@@ -1,0 +1,76 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f3ef;
+  color: #333;
+}
+nav {
+  background-color: #222;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+h1, h2 {
+  color: #111;
+}
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.profile-pic {
+  width: 370px;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  border: 3px solid #eee1d5;
+}
+.button-group a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.button-dark {
+  background-color: #222;
+  color: #fff;
+}
+.button-outline {
+  border: 2px solid #222;
+  color: #222;
+}
+.card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+.contact-info a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
