@@ -15,12 +15,28 @@
     <a href="projects.html">Projects</a>
     <a href="contact.html">Contact</a>
   </nav>
+
   <section>
     <h1>About Me</h1>
     <div class="card">
-      <p>I'm a Computer Science sophomore at UNC Greensboro, passionate about creating and building. Whether it’s front-end design, APIs, or coding a game, I’m all in.</p>
-      <p>I’m a fast learner, love problem-solving, and take pride in designing beautiful, user-friendly experiences. I would love to work in UX design because I love making things not just functional, but visually satisfying.</p>
+      <p>I'm a Computer Science sophomore at UNC Greensboro, passionate about creating and building...</p>
+      <p>I’m a fast learner, love problem-solving, and take pride in designing beautiful, user-friendly experiences.</p>
+      <p>Check out my projects on
+        <div class="button-group">
+        <a href="https://github.com/yasmineemya" class="button-outline">GitHub</a>.
+      </p>
+    </div>
+    </div>
+    <div class="card">
+      <h2>My GitHub Activity</h2>
+      <div class="calendar"></div>
     </div>
   </section>
+
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <script>
+    GitHubCalendar(".calendar", "yasmineemya");
+  </script>
 </body>
 </html>
