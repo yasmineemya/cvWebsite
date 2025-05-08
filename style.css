@@ -74,3 +74,17 @@ footer {
   text-align: center;
   padding: 20px;
 }
+img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 10px;
+}
+section {
+  padding: 40px 15px; /* reduced from 60px */
+  max-width: 1000px;
+  margin: auto;
+}
+
+
