@@ -86,5 +86,35 @@ section {
   max-width: 1000px;
   margin: auto;
 }
+/* Introduction Section */
+.introduction {
+  background-color: #fff;             /* clean white background like your cards */
+  padding: 40px 30px;                 /* comfortable spacing */
+  margin: 60px auto;                  /* center the section */
+  border-radius: 12px;                /* matches card style */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* subtle shadow like cards */
+  max-width: 900px;                   /* aligns with section width */
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+.introduction h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  text-align: center;                 /* center heading like hero section */
+  color: #111;
+}
+
+.introduction p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.introduction strong {
+  color: #222;                        /* matches your nav/buttons dark color */
+  font-weight: 600;
+}
+
 
 
